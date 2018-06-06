@@ -1,0 +1,4 @@
+.directory-item-image {
+    height : 20vh;
+    width: auto;  /*This allows me to keep the aspect ratio*/
+}
