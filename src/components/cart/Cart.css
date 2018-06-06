@@ -1,0 +1,15 @@
+.cart-container {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.cart-image {
+    height: 5vh;
+    width: auto;
+}
+
+.cart-text {
+    margin-bottom: 0px;
+}
+
