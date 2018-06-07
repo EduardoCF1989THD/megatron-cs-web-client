@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import DirectoryItem from './components/directory-item/DirectoryItem';
-import Cart from './components/cart/Cart';
 import './App.css';
+import Directory from './containers/directory/Directory';
 
 class App extends Component {
+  
   render() {
     return (
       <div className="App">
-        <Cart/>
-        <div className="grid-container">
-          <DirectoryItem className="grid-item" name="Iron man" image="images/ironman1.png"/>
-          <DirectoryItem name="Iron man" image="images/ironman1.png"/>
-          <DirectoryItem name="Iron man" image="images/ironman1.png"/>
-          <DirectoryItem name="Iron man" image="images/ironman1.png"/>
-        </div>
+        <Directory></Directory>
       </div>
     );
   }

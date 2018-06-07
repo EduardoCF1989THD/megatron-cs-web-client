@@ -11,7 +11,7 @@ export default class DirectoryItem extends Component{
             <div className="directory-grid">
                 <img className="directory-item-image" src={this.props.image}></img>
                 <h2>{this.props.name}</h2>
-                <button>Add to cart</button>
+                <button onClick={this.props.addToCart}>Add to cart</button>
             </div>
         );
     }
