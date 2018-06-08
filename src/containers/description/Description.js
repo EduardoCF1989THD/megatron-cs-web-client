@@ -12,10 +12,10 @@ export default class Description extends Component{
                 </div>
                 <div className="description-text-container">
                     <h2>Ironman</h2>
-                    <p>This is the description of the comic. skfsdkjfksjnfksfjkbfakbaskfbkdasf
-                    This is the description of the comic. skfsdkjfksjnfksfjkbfakbaskfbkdasf
-                    This is the description of the comic. skfsdkjfksjnfksfjkbfakbaskfbkdasf
-                    This is the description of the comic. skfsdkjfksjnfksfjkbfakbaskfbkdasf
+                    <p className="description-text" >This is the description of the comic. skfsd kjfksjnfksf jkbfakbas kfbkdasf
+                    This is the description of the comic. skfsdkjfk sjnfksfjk bfakbaskfbkdasf
+                    This is the description of the comic. skfsdkj fksjnfk sfjkbfak baskfbkdasf
+                    This is the description of the comic. skfsdk jfksjnfk sfjkbf  akbas kfbkdasf
                     </p>
                 </div>
             </div>
